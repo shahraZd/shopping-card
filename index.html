@@ -44,30 +44,30 @@
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
+              <a class="nav-link" href="#">About</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-        
+
           <ul class="navbar-nav ml-5">
-             
-  
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Account
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Shoes</a>
-                  <a class="dropdown-item" href="#">Bags</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Logout</a>
-                </div>
-              </li>
-         
-            </ul>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Shoes</a>
+                <a class="dropdown-item" href="#">Bags</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Logout</a>
+              </div>
+            </li>
+
+          </ul>
         </div>
       </nav>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -96,12 +96,12 @@
 
     <main class="container-fluid mb-5">
 
-      <div class="row bg-dark mb-2 align-items-center ">
+      <!-- <div class="row bg-dark mb-2 align-items-center ">
         <div class="col-12 col-md-6">
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
         <div class="col-12 col-md-6 text-light text-right  p-3">
 
@@ -109,34 +109,97 @@
               class="fas fa-shopping-cart px-3"></i></h5>
         </div>
 
-      </div>
-
-
-
-      <!-- <div class="col-lg-1 pt-4">
-          <button type="button" class="btn btn-light mr-3 remove" style="color:red">
-            X
-          </button>
-        </div>
-        <div class="col-lg-1 p-1 heart mt-3" style="color:black">♥</div>
-        <div class="col-lg-2 p-1">
-          <img
-            src="https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/9a1ba9ec74724192b3dfa80f009c325f_9366/Ultraboost_Shoes_White_BB6168_01_standard.jpg" />
-        </div>
-        <div class="col-lg-4 mt-4 p-2">Article 1</div>
-
-        <div class="col-lg-2 mt-4">
-          <button type="button" class="btn btn-light mr-3 plus">+</button>
-          <span class="quantity">0</span>
-          <button type="button" class="btn btn-light ml-3 minus">-</button>
-        </div>
-        <div class="col-lg-2 p-2 mt-4 text-center">
-          price: <span class="unitprice">120</span>$
-        </div> -->
+      </div> -->
 
       <div class="container">
         <!-- ROW1 -->
         <div class="row">
+          <ul class="list-group w-100 container">
+            <li class="row list-group-item active bg-dark border-dark">
+              <h5 class="font-weight-bold"><i
+                class="fas fa-shopping-cart px-3"></i> Shopping Bag Total : <span class="total">0</span>$ </h5>
+            </li>
+            <li class=" row list-group-item d-flex align-items-center justify-content-around">
+              <div class="d-flex justify-content-between ">
+              <button type="button" class="btn text-danger  remove">X</button>
+              <div class=" p-1 heart" style="color:#000; ">♥</div>
+            </div>
+              <img
+                src="https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/9a1ba9ec74724192b3dfa80f009c325f_9366/Ultraboost_Shoes_White_BB6168_01_standard.jpg"
+                class="card-img-top w-25" alt="article">
+              <div class="card-title mr-4">
+                <h3>Nike</h3>
+                <p class="card-text">White</p>
+              </div>
+              <div class="d-flex justify-content-between ">
+                <a href="#" class="btn btn-success btn-sm rounded-circle " style="width:30px; height:30px;">+</a>
+                <h5 class="card-text "><span class="unitprice">120</span>$</h5>
+                <a href="#" class="btn btn-success btn-sm  rounded-circle" style="width:30px; height:30px;">-</a>
+              </div>
+            </li>
+            <li class="row list-group-item d-flex align-items-center justify-content-around">
+                <div class="d-flex justify-content-between ">
+                <button type="button" class="btn text-danger  remove">X</button>
+                <div class=" p-1 heart" style="color:#000; ">♥</div>
+              </div>
+                <img
+                  src="https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/9a1ba9ec74724192b3dfa80f009c325f_9366/Ultraboost_Shoes_White_BB6168_01_standard.jpg"
+                  class="card-img-top w-25" alt="article">
+                <div class="card-title mr-4">
+                  <h3>Nike</h3>
+                  <p class="card-text">White</p>
+                </div>
+                <div class="d-flex justify-content-between ">
+                  <a href="#" class="btn btn-success btn-sm rounded-circle " style="width:30px; height:30px;">+</a>
+                  <h5 class="card-text "><span class="unitprice">120</span>$</h5>
+                  <a href="#" class="btn btn-success btn-sm  rounded-circle" style="width:30px; height:30px;">-</a>
+                </div>
+              </li>
+              <li class="row list-group-item d-flex align-items-center justify-content-around">
+                  <div class="d-flex justify-content-between ">
+                  <button type="button" class="btn text-danger  remove">X</button>
+                  <div class=" p-1 heart" style="color:#000; ">♥</div>
+                </div>
+                  <img
+                    src="https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/9a1ba9ec74724192b3dfa80f009c325f_9366/Ultraboost_Shoes_White_BB6168_01_standard.jpg"
+                    class="card-img-top w-25" alt="article">
+                  <div class="card-title mr-4">
+                    <h3>Nike</h3>
+                    <p class="card-text">White</p>
+                  </div>
+                  <div class="d-flex justify-content-between ">
+                    <a href="#" class="btn btn-success btn-sm rounded-circle " style="width:30px; height:30px;">+</a>
+                    <h5 class="card-text "><span class="unitprice">120</span>$</h5>
+                    <a href="#" class="btn btn-success btn-sm  rounded-circle" style="width:30px; height:30px;">-</a>
+                  </div>
+                </li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="row">
           <div class="col-12 col-sm-6 col-md-4 mb-3">
             <div class="card shadow" style="width:300px; height:400px;">
               <div class="cardHeader  ">
@@ -415,12 +478,38 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
 
         <!-- END OF CONTAINER -->
       </div>
+
+
+
+
+      <!-- <div class="col-lg-1 pt-4">
+          <button type="button" class="btn btn-light mr-3 remove" style="color:red">
+            X
+          </button>
+        </div>
+        <div class="col-lg-1 p-1 heart mt-3" style="color:black">♥</div>
+        <div class="col-lg-2 p-1">
+          <img
+            src="https://assets.adidas.com/images/w_600,h_600,f_auto,q_auto:sensitive,fl_lossy/9a1ba9ec74724192b3dfa80f009c325f_9366/Ultraboost_Shoes_White_BB6168_01_standard.jpg" />
+        </div>
+        <div class="col-lg-4 mt-4 p-2">Article 1</div>
+
+        <div class="col-lg-2 mt-4">
+          <button type="button" class="btn btn-light mr-3 plus">+</button>
+          <span class="quantity">0</span>
+          <button type="button" class="btn btn-light ml-3 minus">-</button>
+        </div>
+        <div class="col-lg-2 p-2 mt-4 text-center">
+          price: <span class="unitprice">120</span>$
+        </div> -->
+
+
       <!-- <div class="col-lg-1 pt-4">
             <button type="button" class="btn btn-light mr-3 remove" style="color:red">
               X
